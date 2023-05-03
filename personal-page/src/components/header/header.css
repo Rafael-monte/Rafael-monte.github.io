@@ -1,0 +1,15 @@
+.explorer-header {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1502EE;
+}
+
+.explorer-header #title {
+    font-family: 'Russo One';
+    color: #FFF;
+    font-size: 1.875rem;
+}
