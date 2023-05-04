@@ -1,11 +1,11 @@
 import {React, Component} from "react"
-import {FcOpenedFolder} from 'react-icons/fc'
+import {FcFile} from 'react-icons/fc'
 import './icon.css';
-export default class FolderIcon extends Component {
+export default class FileIcon extends Component {
     render () {
         return (
         <div className="icon-container" style={{backgroundColor: this.props.bgColor}}>
-            <FcOpenedFolder size={50}></FcOpenedFolder>
+            <FcFile size={50}></FcFile>
             <span className="icon-name">{this.props.folderName}</span>
         </div>
         )

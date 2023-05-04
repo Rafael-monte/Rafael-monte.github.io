@@ -1,34 +1,41 @@
 {
-    "folders": [
+    "elements": [
         {
-            "folderName": "Experiencia",
+            "type": "folder",
+            "name": "Experiencia",
             "content": [
                 {
-                    "fileName": "Upcode Tecnologia - Estagio.txt",
-                    "text": "Fui estagiário na upcode tecnologia, lá adquiri experiência com Java, JS e TS (Trabalhando com Spring Boot e Angular)"
+                    "type": "file",
+                    "name": "Upcode Tecnologia - Estagio.txt",
+                    "content": "Fui estagiário na upcode tecnologia, lá adquiri experiência com Java, JS e TS (Trabalhando com Spring Boot e Angular)"
                 },
                 {
-                    "fileName": "Nextage.txt",
-                    "text": "Estou trabalhando atualmente na Nextage, onde estou sempre mexendo com alguma coisa diferente. Como por exemplo: Kotlin, C# e AWS"
+                    "type": "file",
+                    "name": "Nextage.txt",
+                    "content": "Estou trabalhando atualmente na Nextage, onde estou sempre mexendo com alguma coisa diferente. Como por exemplo: Kotlin, C# e AWS"
                 }
             ]
         },
         {
-            "folderName": "Formacao",
+            "type": "folder",
+            "name": "Formacao",
             "content": [
                 {
-                    "fileName": "IFPR.txt",
-                    "text": "Onde aprendi toda a base que eu uso até hoje. Inclusive onde eu aprendi a programar na linguagem que me inseriu no mercado e que eu tenho mais domínio: Java"
+                    "type": "file",
+                    "name": "IFPR.txt",
+                    "content": "Onde aprendi toda a base que eu uso até hoje. Inclusive onde eu aprendi a programar na linguagem que me inseriu no mercado e que eu tenho mais domínio: Java"
                 },
                 {
-                    "fileName": "UEM.txt",
-                    "text": "Onde aprendi toda a base que eu uso até hoje. Inclusive onde eu aprendi a programar na linguagem que me inseriu no mercado e que eu tenho mais domínio: Java"
+                    "type": "file",
+                    "name": "UEM.txt",
+                    "content": "Onde aprendi toda a base que eu uso até hoje. Inclusive onde eu aprendi a programar na linguagem que me inseriu no mercado e que eu tenho mais domínio: Java"
                 }
             ]
+        },
+        {
+            "type": "file",
+            "name": "Sobre.txt",
+            "content": "Olá, meu nome é Rafael Monteiro Zancanaro, tenho 20 anos e sou desenvolvedor Full Stack. Essa é uma página que eu separei para apresentar um pouquinho sobre mim"
         }
-    ],
-    "aboutFile": {
-        "fileName": "Sobre.txt",
-        "text": "Olá, meu nome é Rafael Monteiro Zancanaro, tenho 20 anos e sou desenvolvedor Full Stack. Essa é uma página que eu separei para apresentar um pouquinho sobre mim"
-    }
+    ]
 }

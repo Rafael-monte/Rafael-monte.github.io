@@ -30,6 +30,6 @@ body {
 }
 
 .icons > ul > li {
-    padding: 0;
+    padding-top: 6px;
     margin: 0;
 }
